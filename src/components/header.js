@@ -32,14 +32,14 @@ export default function Header({ onComponentChange}){
                  <ul className="dropdown-menu border-0 shadow-sm">
                    <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('Alcoholic')}}>Alcoholic Beverages</a></li>
                    <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('NonAlcoholic')}}>Non-Alcoholic Beverages</a></li>
-                   <li><a className="dropdown-item" href="#">Water Beverages</a></li>
+                   <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('WaterBev')}}>Water Beverages</a></li>
                  </ul>
                </li>
                <li className="nav-item ms-lg-4">
-                 <a className={`nav-link ${active === 'formulations' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('formulations');onComponentChange('Formulations');}}>Formulations</a>
+                 <a className={`nav-link ${active === 'Formulations' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('Formulations')}}>Formulations</a>
                </li>
                <li className="nav-item ms-lg-4">
-                 <a className={`nav-link ${active === 'bottling' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('bottling');onComponentChange('Bottling');}}>Bottling</a>
+                 <a className={`nav-link ${active === 'Bottling' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('Bottling')}}>Bottling</a>
                </li>
              </ul>
              <button type="button" class="btn bg-blue rounded-0">Contact Us</button>

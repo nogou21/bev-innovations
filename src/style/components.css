@@ -37,3 +37,10 @@ hr{
 .footer{
     color: #6c757d;
 }
+.dropdown-item:hover {
+    background-color: var(--logo-blue)!important;
+    color: white!important;
+}
+.body-bg{
+    background-color: #f8f9fa;
+}

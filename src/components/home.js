@@ -5,7 +5,7 @@ const loadImage = (img) => {
     return require(`../assets/${img}`);
 }
     return (
-        <div className="container-fluid home overflow-hidden">
+        <div className="container-fluid home overflow-hidden body-bg">
             <div className="banner row g-0 text-center">
              <div className="col-sm-12 col-md-6 py-lg-5">
                  <h2 className="blue-text">BEV-INNOVATIONS | BEVERAGE CONTRACT MANUFACTURING</h2>
