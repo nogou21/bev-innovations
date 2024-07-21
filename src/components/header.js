@@ -9,7 +9,7 @@ export default function Header({ onComponentChange}){
 
   const [active, setActive] = useState('Home');
 
-  const [activeLang, setActiveLang] = useState('');
+  const [activeLang, setActiveLang] = useState('en');
 
   const { t, i18n } = useTranslation();
 
