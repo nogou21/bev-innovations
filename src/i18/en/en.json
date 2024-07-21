@@ -1,5 +1,5 @@
 {
-        "home": "Acceuil",
+        "home": "Home",
         "co-packing-title": "Co-Packing Solutions",
         "formulations-title": "Formulations",
         "bottling-tittle": "Bottling",
@@ -39,5 +39,24 @@
         "bottling-sub-title2": "Our manufacturing capabilities are designed to cater to a variety of needs:",
         "bottling-text2": "Bev-Innovations offers a wide array of co-packing options to suit all your beverage needs, providing packaging solutions for both liquid and powder products in various containers:",
         "packaging-options": "Packaging Options:",
-        "product-types": "Product Types:"
+        "product-types": "Product Types:",
+        "glass-bottles": "Glass Bottles",
+        "pet-bottles": "PET Bottles (Hot and Cold)",
+        "hdpe-bottles": "HDPE Bottles",
+        "aluminium-bottles": "Aluminum Bottles",
+        "shot-bottles": "Shot Bottles",
+        "and-more": "And more!",
+        "alcoholic-bev-list": "Alcoholic Beverages: Wine, Spirits, Malts, Cordials",
+        "beverage-enhancers": "Beverage Enhancers",
+        "coffee-drink": "Coffee Drinks (16oz-32oz)",
+        "energy-drinks": "Energy Drinks and Shots",
+        "workout-bev": "Exercise and Workout Beverages and Shots",
+        "tea-water": "Flavored Teas and Waters",
+        "fruit-juice": "Fruit and Juice-Based Drinks and Juice Concentrates",
+        "functional-drink": "Functional Drinks and Shots",
+        "herbal-drinks": "Herbal Drinks",
+        "protein-drinks": "Protein Drinks",
+        "rtd-protein": "RTD Protein Drinks and Powder",
+        "vitamin": "Vitamin-infused water",
+        "last-one": "Or Your New Idea!"
 }

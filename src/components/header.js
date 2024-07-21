@@ -9,7 +9,7 @@ export default function Header({ onComponentChange}){
 
   const [active, setActive] = useState('Home');
 
-  const [activeLang, setActiveLang] = useState('en');
+  const [activeLang, setActiveLang] = useState('');
 
   const { t, i18n } = useTranslation();
 
@@ -38,23 +38,23 @@ export default function Header({ onComponentChange}){
                </li>
                <li className="nav-item dropdown ms-lg-4">
                  <a className="nav-link dropdown-toggle    fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   Co-Packing Solutions
+                   {t('Co-Packing Solutions')}
                  </a>
                  <ul className="dropdown-menu border-0 shadow-sm">
-                   <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('Alcoholic')}}>Alcoholic Beverages</a></li>
-                   <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('NonAlcoholic')}}>Non-Alcoholic Beverages</a></li>
-                   <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('WaterBev')}}>Water Beverages</a></li>
+                   <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('Alcoholic')}}>{t('alcoholic-bev')}</a></li>
+                   <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('NonAlcoholic')}}>{t('nonalcohol-bev')}</a></li>
+                   <li><a className="dropdown-item" href="#" onClick={()=>{ changeTab('WaterBev')}}>{t('water-bev')}</a></li>
                  </ul>
                </li>
                <li className="nav-item ms-lg-4">
-                 <a className={`nav-link ${active === 'Formulations' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('Formulations')}}>Formulations</a>
+                 <a className={`nav-link ${active === 'Formulations' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('Formulations')}}>{t('formulations-title')}</a>
                </li>
                <li className="nav-item ms-lg-4">
-                 <a className={`nav-link ${active === 'Bottling' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('Bottling')}}>Bottling</a>
+                 <a className={`nav-link ${active === 'Bottling' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('Bottling')}}>{t('bottling-tittle')}</a>
                </li>
              </ul>
-             <a className="change-lang-btn fs-5 fw-semibold px-5" href="#" onClick={() => {changeLang(activeLang === 'en'?'fr':'en')}}>{activeLang === "en" ? "En" : "Fr"}</a>
-             <button type="button" class="btn bg-blue rounded-0 me-lg-2" onClick={() => {changeTab('Contact-us')}}>Contact Us</button>
+             <a className="change-lang-btn fs-5 fw-semibold px-5" href="#" onClick={() => {changeLang(activeLang === 'en'?'fr':'en')}}>{activeLang === "en" ? "Fr" : "En"}</a>
+             <button type="button" className="btn bg-blue rounded-0 me-lg-2" onClick={() => {changeTab('Contact-us')}}>{t('contact-us')}</button>
            </div>
          </div>
 </nav>

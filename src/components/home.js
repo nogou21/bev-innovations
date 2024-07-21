@@ -1,18 +1,19 @@
-
+import { useTranslation } from 'react-i18next';
 export default function Home(){
 
 const loadImage = (img) => {
     return require(`../assets/${img}`);
 }
+
+const { t } = useTranslation();
     return (
         <div className="container-fluid home overflow-hidden body-bg">
             <div className="banner row g-0 text-center">
              <div className="col-sm-12 col-md-6 py-lg-5">
-                 <h2 className="blue-text">BEV-INNOVATIONS | BEVERAGE CONTRACT MANUFACTURING</h2>
-                 <h4 className="py-lg-1">Experience the Difference with Bev-Innovations</h4>
-                 <p className="py-lg-1">Bev-Innovations leverages decades of expertise in co-packing and contract manufacturing for both alcoholic and non-alcoholic beverages. 
-                     Partner with a leader in the beverage industry to turn your ideas into reality.</p>
-                 <button type="button" className="btn bg-blue btn-lg rounded-0">Contact Us</button>
+                 <h2 className="blue-text">{t('banner-title-1')}</h2>
+                 <h4 className="py-lg-1">{t('banner-sub-title')}</h4>
+                 <p className="py-lg-1">{t('banner-text')}</p>
+                 <button type="button" className="btn bg-blue btn-lg rounded-0">{t('contact-us')}</button>
                 </div>
             <div className="col-12 col-md-6 ">
                 <img src={loadImage('banner-BEV.jpg')} alt="banner"/>
@@ -24,8 +25,8 @@ const loadImage = (img) => {
                         <div className="card shadow border-0" >
                         <img src={loadImage('whisky-bottles.png')} class="card-img-top" alt="alcoholic beverages" width="250" height="450"/>
                         <div class="card-body">
-                          <h5 class="card-title">Alcoholic Beverages</h5>
-                          <a href="#" class="btn bg-blue rounded-0">Learn More</a>
+                          <h5 class="card-title">{t('alcoholic-bev')}</h5>
+                          <a href="#" class="btn bg-blue rounded-0">{t('learn-more')}</a>
                          </div>  
                         </div>
                     </div>
@@ -33,8 +34,8 @@ const loadImage = (img) => {
                         <div className="card shadow border-0">
                             <img src={loadImage('juice.png')} class="card-img-top" alt="non-alcoholic beverages" width="250" height="450"/>
                             <div className="card-body">
-                                <h5 class="card-title">Non-Alcoholic Beverages</h5>
-                                <a href="#" class="btn bg-blue rounded-0">Learn More</a>
+                                <h5 class="card-title">{t('nonalcohol-bev')}</h5>
+                                <a href="#" class="btn bg-blue rounded-0">{t('learn-more')}</a>
                             </div>
                         </div>
                     </div>
@@ -42,8 +43,8 @@ const loadImage = (img) => {
                     <div className="card shadow border-0">
                             <img src={loadImage('formulations.png')} class="card-img-top" alt="formulations" width="250" height="450"/>
                             <div className="card-body">
-                                <h5 class="card-title">Formulations</h5>
-                                <a href="#" class="btn bg-blue rounded-0">Learn More</a>
+                                <h5 class="card-title">{t('formulations-title')}</h5>
+                                <a href="#" class="btn bg-blue rounded-0">{t('learn-more')}</a>
                             </div>
                         </div>
                 </div>
@@ -54,8 +55,8 @@ const loadImage = (img) => {
                             <div className="card shadow border-0" >
                             <img src={loadImage('bottling-machine.png')} class="card-img-top" alt="test run" width="250" height="450"/>
                             <div class="card-body">
-                              <h5 class="card-title">Test Runs</h5>
-                              <a href="#" class="btn bg-blue rounded-0">Learn More</a>
+                              <h5 class="card-title">{t('test-run')}</h5>
+                              <a href="#" class="btn bg-blue rounded-0">{t('learn-more')}</a>
                              </div>  
                             </div>
                         </div>
@@ -63,8 +64,8 @@ const loadImage = (img) => {
                             <div className="card shadow border-0" >
                             <img src={loadImage('water-bottle.png')} class="card-img-top" alt="water bottling" width="250" height="450"/>
                             <div class="card-body">
-                              <h5 class="card-title">Water Bottling</h5>
-                              <a href="#" class="btn bg-blue rounded-0">Learn More</a>
+                              <h5 class="card-title">{t('water-bev')}</h5>
+                              <a href="#" class="btn bg-blue rounded-0">{t('learn-more')}</a>
                              </div>  
                             </div>
                         </div>    
