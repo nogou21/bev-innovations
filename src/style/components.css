@@ -44,3 +44,7 @@ hr{
 .body-bg{
     background-color: #f8f9fa;
 }
+.change-lang-btn{
+    text-decoration: none;
+    color: var(--logo-blue);
+}

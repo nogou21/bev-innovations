@@ -1,4 +1,7 @@
 export default function Bottling(){
+    const loadImage = (img) => {
+        return require(`../assets/${img}`);
+    }
     return (
      <div className="row g-3 text-start px-lg-4 pt-lg-5">
         <div className="col-12 col-md-12">
@@ -9,7 +12,10 @@ export default function Bottling(){
             <p>Bev-Innovations offers a wide array of co-packing options to suit all your beverage needs, providing packaging solutions for both liquid and powder products in 
             various containers:</p>
         </div>
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-md-3">
+            <img src={loadImage('aluminium-bottles.png')} class="card-img-top" alt="aluminium-bottles"/>
+        </div>
+        <div className="col-12 col-md-3">
         <ul class="border-0 text-start">
             <li class="list-group-item blue-text py-lg-2"><strong>Packaging Options:</strong></li>
             <li class="list-group-item">Glass Bottles</li>
@@ -21,7 +27,10 @@ export default function Bottling(){
             <li class="list-group-item">And more!</li>
         </ul>
         </div>
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-md-3">
+        <img src={loadImage('wine-bottles.png')} class="card-img-top" alt="formulations"/>
+        </div>
+        <div className="col-12 col-md-3">
         <ul class="border-0">
             <li class="list-group-item blue-text py-lg-2"><strong>Product Types:</strong></li>
             <li class="list-group-item">Alcoholic Beverages: Wine, Spirits, Malts, Cordials</li>

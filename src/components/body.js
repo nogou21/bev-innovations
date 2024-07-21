@@ -4,7 +4,7 @@ import NonAlcoholic from "./non-alcoholic-bev";
 import WaterBev from "./water-bev";
 import Formulations from "./formulations";
 import Bottling from "./bottling";
-
+import ContactUs from "./contact-us";
 
 export default function Body({component}){
 
@@ -20,5 +20,7 @@ export default function Body({component}){
         return <Formulations/>
       }else if(component === 'Bottling'){
         return <Bottling/>
+      }else if(component === 'Contact-us'){
+        return <ContactUs/>
       }
 }

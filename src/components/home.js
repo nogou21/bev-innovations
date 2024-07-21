@@ -22,7 +22,7 @@ const loadImage = (img) => {
                 <div className="row g-3 my-lg-2">
                     <div className="col-12 col-md-4">
                         <div className="card shadow border-0" >
-                        <img src={loadImage('wine-bottle.png')} class="card-img-top" alt="alcoholic beverages" width="250" height="450"/>
+                        <img src={loadImage('whisky-bottles.png')} class="card-img-top" alt="alcoholic beverages" width="250" height="450"/>
                         <div class="card-body">
                           <h5 class="card-title">Alcoholic Beverages</h5>
                           <a href="#" class="btn bg-blue rounded-0">Learn More</a>

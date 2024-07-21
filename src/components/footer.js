@@ -22,8 +22,8 @@ export default function Footer(){
                 <div className="col-12 col-md-3">
                 <ul className="list-group-flush border-0  mt-lg-2">
                       <li class="list-group-item text-start fw-bold blue-text">Contact</li>
-                      <li class="list-group-item text-start mt-lg-1">Phone: (123) 456-7890</li>
-                      <li class="list-group-item text-start">Email: contact@example.com</li>
+                      <li class="list-group-item text-start mt-lg-1">Tel: (450) 692- 5229</li>
+                      <li class="list-group-item text-start">Address: 254B, boul.Industriel Châteauguay, QC, J6J 4Z2, Canada</li>
                     </ul>
                 </div>
             </div>

@@ -2,10 +2,21 @@
 import logo from '../assets/symbol-bev.png';
 import React, { useState } from 'react';
 import '../style/components.css';
+import { useTranslation } from 'react-i18next';
+
 
 export default function Header({ onComponentChange}){
 
   const [active, setActive] = useState('Home');
+
+  const [activeLang, setActiveLang] = useState('en');
+
+  const { t, i18n } = useTranslation();
+
+  const changeLang = (lang) => {
+    setActiveLang(lang);
+    i18n.changeLanguage(lang)
+  }
 
   const changeTab = (title) =>{
        setActive(title);
@@ -15,7 +26,7 @@ export default function Header({ onComponentChange}){
         <nav className="navbar navbar-expand-lg shadow-sm">
          <div className="container-fluid mt-lg-3 mb-lg-3">
             <a class="navbar-brand" href="#">
-              <img src={logo} alt="bev-innovations" width="70" height="70"/>
+              <img src={logo} alt="bev-innovations" width="70" height="70" onClick={() => {changeTab('Home')}}/>
             </a>
            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <span className="navbar-toggler-icon"></span>
@@ -23,7 +34,7 @@ export default function Header({ onComponentChange}){
            <div className="collapse navbar-collapse" id="navbarSupportedContent">
              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                <li className="nav-item  ms-lg-5">
-                 <a className={`nav-link ${active === 'Home' ? 'active' : ''}    fs-6`} aria-current="page" href="#" onClick={() => {changeTab('Home')}}>Home</a>
+                 <a className={`nav-link ${active === 'Home' ? 'active' : ''}    fs-6`} aria-current="page" href="#" onClick={() => {changeTab('Home')}}>{t('home')}</a>
                </li>
                <li className="nav-item dropdown ms-lg-4">
                  <a className="nav-link dropdown-toggle    fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,7 +53,8 @@ export default function Header({ onComponentChange}){
                  <a className={`nav-link ${active === 'Bottling' ? 'active' : ''}    fs-6`} href="#" onClick={() => {changeTab('Bottling')}}>Bottling</a>
                </li>
              </ul>
-             <button type="button" class="btn bg-blue rounded-0">Contact Us</button>
+             <a className="change-lang-btn fs-5 fw-semibold px-5" href="#" onClick={() => {changeLang(activeLang === 'en'?'fr':'en')}}>{activeLang === "en" ? "En" : "Fr"}</a>
+             <button type="button" class="btn bg-blue rounded-0 me-lg-2" onClick={() => {changeTab('Contact-us')}}>Contact Us</button>
            </div>
          </div>
 </nav>
