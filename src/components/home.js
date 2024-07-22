@@ -20,7 +20,7 @@ const { t } = useTranslation();
                  <h4 className="py-lg-1">{t('banner-sub-title')}</h4>
                  <p className="py-lg-1">{t('banner-text')}</p>
                  <p className="pb-lg-3">{t('slogan')}</p>
-                 <button type="button" className="btn bg-blue btn-lg rounded-0">{t('contact-us')}</button>
+                 <button type="button" className="btn bg-blue btn-lg rounded-0" onClick={() => {handleBtnClick('Contact-us')}}>{t('Contact-us')}</button>
                 </div>
             <div className="col-12 col-md-6 not-display">
                 <img src={loadImage('banner-BEV.jpg')} alt="banner"/>
@@ -30,7 +30,7 @@ const { t } = useTranslation();
                 <div className="row g-3 my-lg-2">
                     <div className="col-12 col-md-4">
                         <div className="card shadow border-0" >
-                        <img src={loadImage('whisky-bottles.png')} class="card-img-top" alt="alcoholic beverages" width="250" height="450"/>
+                        <img src={loadImage('wine&spirit.png')} class="card-img-top" alt="alcoholic beverages" width="250" height="450"/>
                         <div class="card-body">
                           <h5 class="card-title">{t('alcoholic-bev')}</h5>
                           <a href="#" class="btn bg-blue rounded-0" onClick={() => {handleBtnClick('Alcoholic')}}>{t('learn-more')}</a>
@@ -39,7 +39,7 @@ const { t } = useTranslation();
                     </div>
                     <div className="col-12 col-md-4">
                         <div className="card shadow border-0">
-                            <img src={loadImage('juice.png')} class="card-img-top" alt="non-alcoholic beverages" width="250" height="450"/>
+                            <img src={loadImage('cans-img.png')} class="card-img-top" alt="non-alcoholic beverages" width="250" height="450"/>
                             <div className="card-body">
                                 <h5 class="card-title">{t('nonalcohol-bev')}</h5>
                                 <a href="#" class="btn bg-blue rounded-0" onClick={() => {handleBtnClick('NonAlcoholic')}}>{t('learn-more')}</a>
@@ -48,7 +48,7 @@ const { t } = useTranslation();
                     </div>
                     <div className="col-12 col-md-4">
                     <div className="card shadow border-0">
-                            <img src={loadImage('formulations.png')} class="card-img-top" alt="formulations" width="250" height="450"/>
+                            <img src={loadImage('formulation.png')} class="card-img-top" alt="formulations" width="250" height="450"/>
                             <div className="card-body">
                                 <h5 class="card-title">{t('formulations-title')}</h5>
                                 <a href="#" class="btn bg-blue rounded-0" onClick={() => {handleBtnClick('Formulations')}}>{t('learn-more')}</a>
@@ -60,7 +60,7 @@ const { t } = useTranslation();
                 <div className="row g-3 my-lg-2">
                     <div className="col-12 col-md-4">
                             <div className="card shadow border-0" >
-                            <img src={loadImage('bottling-machine.png')} class="card-img-top" alt="test run" width="250" height="450"/>
+                            <img src={loadImage('machine.png')} class="card-img-top" alt="test run" width="250" height="450"/>
                             <div class="card-body">
                               <h5 class="card-title">{t('test-run')}</h5>
                               <a href="#" class="btn bg-blue rounded-0" onClick={() => {handleBtnClick('Test-run')}}>{t('learn-more')}</a>

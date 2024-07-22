@@ -9,7 +9,7 @@ export default function Formulation(){
         <div className="card mb-3 border-0">
         <div className="row g-0">
             <div className="col-md-6">
-                <img src={loadImage('formulations.png')} className="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
+                <img src={loadImage('formulation.png')} className="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
             </div>
              <div className="col-md-6">
                <div className="card-body">

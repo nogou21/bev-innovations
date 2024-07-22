@@ -10,7 +10,7 @@ export default function TestRun(){
         <div class="card mb-3 border-0">
         <div class="row g-0">
            <div class="col-md-6">
-              <img src={loadImage('juice.png')} class="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
+              <img src={loadImage('machine.png')} class="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
           </div>
            <div className="col-md-6">
              <div className="card-body">
