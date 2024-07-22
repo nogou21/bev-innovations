@@ -16,7 +16,7 @@ export default function Alcoholic(){
                  <p classNameName="card-text">{t('alcoholic-bev-text1')}</p>
                  <p className="card-text"><strong>{t('alcoholic-bev-title1')}</strong></p>
                  <p className="card-text">{t('alcoholic-bev-text2')}</p>
-                <p className="card-text"><strong>{('alcoholic-bev-title2')}</strong></p>
+                <p className="card-text"><strong>{t('alcoholic-bev-title2')}</strong></p>
                 <p className="card-text">{t('alcoholic-bev-text3')}</p>
                 </div>
             </div>

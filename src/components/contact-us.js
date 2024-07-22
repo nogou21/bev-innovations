@@ -16,7 +16,7 @@ export default function ContactUs(){
                 <p className='card-text'>{t('contact-us-text1')}</p>
                 <p className='card-text'>{t('contact-us-text2')}</p>
                 <p className="card-text"><strong>Tel:</strong> (450) 692- 5229</p>
-                <p className='card-text'><strong>{t('Address')}:</strong>254B, boul.Industriel Châteauguay, QC, J6J 4Z2, Canada</p>
+                <p className='card-text'><strong>{t('Address')}:</strong>254b, boul.Industriel Châteauguay, QC, J6J 4Z2, Canada</p>
             </div>
           </div>
          </div>

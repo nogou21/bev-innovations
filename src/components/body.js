@@ -5,22 +5,28 @@ import WaterBev from "./water-bev";
 import Formulations from "./formulations";
 import Bottling from "./bottling";
 import ContactUs from "./contact-us";
+import TestRun from "./test-run";
+import { usePage } from "./page-context";
 
-export default function Body({component}){
+export default function Body(){
 
-    if(component === 'Home'){
+  const [pageDisplayed] = usePage();
+
+    if(pageDisplayed === 'Home'){
         return <Home/>;
-      }else if(component === 'Alcoholic'){
+      }else if(pageDisplayed === 'Alcoholic'){
         return <Alcoholic/>;
-      }else if(component === 'NonAlcoholic'){
+      }else if(pageDisplayed === 'NonAlcoholic'){
         return <NonAlcoholic/>
-      }else if(component === 'WaterBev'){
+      }else if(pageDisplayed === 'WaterBev'){
         return <WaterBev/>
-      }else if(component === 'Formulations'){
+      }else if(pageDisplayed === 'Formulations'){
         return <Formulations/>
-      }else if(component === 'Bottling'){
+      }else if(pageDisplayed === 'Bottling'){
         return <Bottling/>
-      }else if(component === 'Contact-us'){
+      }else if(pageDisplayed === 'Contact-us'){
         return <ContactUs/>
+      }else if(pageDisplayed === 'Test-run'){
+           return <TestRun/>
       }
 }

@@ -48,3 +48,10 @@ hr{
     text-decoration: none;
     color: var(--logo-blue);
 }
+
+@media (max-width: 575.98px) { 
+
+    .not-display{
+        display: none!important;
+    }
+ }
