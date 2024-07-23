@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.95d43b45.css",
+    "main.js": "/react-gh-pages/static/js/main.d0b9e7de.js",
+    "static/js/453.459167f9.chunk.js": "/react-gh-pages/static/js/453.459167f9.chunk.js",
+    "static/media/Contact-us.png": "/react-gh-pages/static/media/Contact-us.32c71ad76cc64a48ff8d.png",
+    "static/media/water-bottle.png": "/react-gh-pages/static/media/water-bottle.4e808b9251867943a2f1.png",
+    "static/media/banner-BEV.jpg": "/react-gh-pages/static/media/banner-BEV.6402544f59c199568af7.jpg",
+    "static/media/wine-bottles.png": "/react-gh-pages/static/media/wine-bottles.4014b1699e545aeeeb9d.png",
+    "static/media/cans-img.png": "/react-gh-pages/static/media/cans-img.4714e88bc9b63be12cbe.png",
+    "static/media/machine.png": "/react-gh-pages/static/media/machine.5dceeee740912416349b.png",
+    "static/media/formulation.png": "/react-gh-pages/static/media/formulation.4a3fac03b76e4e05000b.png",
+    "static/media/aluminium-bottles.png": "/react-gh-pages/static/media/aluminium-bottles.c319d4c57bd8354d0689.png",
+    "static/media/wine&spirit.png": "/react-gh-pages/static/media/wine&spirit.821f19e493d07a9fadd3.png",
+    "static/media/wine-bottle.png": "/react-gh-pages/static/media/wine-bottle.cf2f9b8851c7b88e536a.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.95d43b45.css.map": "/react-gh-pages/static/css/main.95d43b45.css.map",
+    "main.d0b9e7de.js.map": "/react-gh-pages/static/js/main.d0b9e7de.js.map",
+    "453.459167f9.chunk.js.map": "/react-gh-pages/static/js/453.459167f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95d43b45.css",
+    "static/js/main.d0b9e7de.js"
+  ]
+}
