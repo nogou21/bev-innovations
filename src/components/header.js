@@ -24,7 +24,7 @@ export default function Header(){
     return (
         <nav className="navbar navbar-expand-lg shadow-sm">
          <div className="container-fluid mt-lg-3 mb-lg-3">
-            <a class="navbar-brand" href="#">
+            <a className="navbar-brand" href="#">
               <img src={logo} alt="bev-innovations" width="70" height="70" onClick={() => {changeTab('Home')}}/>
             </a>
            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
