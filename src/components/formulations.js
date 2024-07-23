@@ -13,7 +13,7 @@ export default function Formulation(){
             </div>
              <div className="col-md-6">
                <div className="card-body">
-                 <h5 className="card-title blue-text fw-bold fs-4 pt-lg-5">{('formulations-services')}</h5>
+                 <h5 className="card-title blue-text fw-bold fs-4 pt-lg-5">{t('formulations-services')}</h5>
                  <p className="card-text">{t('formulations-text1')}</p>
                  <p className="card-text"><strong>{t('formulations-sub-title1')}</strong></p>
                  <p classNameName="card-text">{t('formulations-text2')}</p>
