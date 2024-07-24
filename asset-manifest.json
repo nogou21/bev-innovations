@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bev-innovations/static/css/main.11bd242e.css",
-    "main.js": "/bev-innovations/static/js/main.2634c6ff.js",
+    "main.js": "/bev-innovations/static/js/main.710124b4.js",
     "static/js/453.459167f9.chunk.js": "/bev-innovations/static/js/453.459167f9.chunk.js",
     "static/media/Contact-us.png": "/bev-innovations/static/media/Contact-us.32c71ad76cc64a48ff8d.png",
     "static/media/water-bottle.png": "/bev-innovations/static/media/water-bottle.4e808b9251867943a2f1.png",
@@ -15,11 +15,11 @@
     "static/media/wine-bottle.png": "/bev-innovations/static/media/wine-bottle.cf2f9b8851c7b88e536a.png",
     "index.html": "/bev-innovations/index.html",
     "main.11bd242e.css.map": "/bev-innovations/static/css/main.11bd242e.css.map",
-    "main.2634c6ff.js.map": "/bev-innovations/static/js/main.2634c6ff.js.map",
+    "main.710124b4.js.map": "/bev-innovations/static/js/main.710124b4.js.map",
     "453.459167f9.chunk.js.map": "/bev-innovations/static/js/453.459167f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11bd242e.css",
-    "static/js/main.2634c6ff.js"
+    "static/js/main.710124b4.js"
   ]
 }
