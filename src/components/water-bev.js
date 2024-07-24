@@ -13,7 +13,7 @@ export default function WaterBev(){
              <div className="col-md-6">
                <div className="card-body">
                  <h5 className="card-title blue-text fw-bold fs-4 pt-lg-5">{t('water-bev')}</h5>
-                 <p className="card-text"><strong>{('water-bev-sub-title')}</strong></p>
+                 <p className="card-text"><strong>{t('water-bev-sub-title')}</strong></p>
                  <p classNameName="card-text">{t('water-bev-text-section1')}</p>
                  <p className="card-text">{t('water-bev-text-section2')}</p>
                 <p className="card-text">{t('water-bev-text-section3')}</p>
