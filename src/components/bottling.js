@@ -5,7 +5,7 @@ export default function Bottling(){
     }
     const { t } = useTranslation();
     return (
-        <div className='container-fluid overflow-hidden body-bg'>
+        <div className='container-fluid overflow-hidden'>
             <div className="row g-3 text-start px-lg-4 pt-lg-5">
         <div className="col-12 col-md-12">
             <h2 className="blue-text">{t('bottling-title')}</h2>
