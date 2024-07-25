@@ -7,8 +7,8 @@ export default function Alcoholic(){
     return(
     <div className="card mb-3 border-0">
         <div className="row g-0">
-            <div className="col-md-6">
-                <img src={loadImage('wine&spirit.png')} className="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
+            <div className="col-md-6 d-flex justify-content-center align-items-center">
+                <img src={loadImage('wine-bottle-2.jpg')} className="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
             </div>
              <div className="col-md-6">
                <div className="card-body">

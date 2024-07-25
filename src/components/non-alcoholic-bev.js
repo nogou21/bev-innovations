@@ -8,8 +8,8 @@ export default function NonAlcoholic(){
     return(
         <div class="card mb-3 border-0">
          <div class="row g-0">
-            <div class="col-md-6">
-               <img src={loadImage('cans-img.png')} class="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+               <img src={loadImage('cans-imgs-1.jpg')} class="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
            </div>
             <div class="col-md-6">
               <div class="card-body">

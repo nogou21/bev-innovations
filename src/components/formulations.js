@@ -8,8 +8,8 @@ export default function Formulation(){
     return (
         <div className="card mb-3 border-0">
         <div className="row g-0">
-            <div className="col-md-6">
-                <img src={loadImage('formulation.png')} className="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
+            <div className="col-md-6 d-flex justify-content-center align-items-center">
+                <img src={loadImage('formulation-2.jpeg')} className="img-fluid rounded-start" alt="Non-Alcoholic Beverage"/>
             </div>
              <div className="col-md-6">
                <div className="card-body">

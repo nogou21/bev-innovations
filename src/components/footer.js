@@ -9,7 +9,7 @@ export default function Footer(){
         <div className="footer mt-lg-5 overflow-hidden">
             <div className="row g-3">
                 <div className="col-12 col-md-6">
-                    <img src={logo} class="position-relative top-5 start-5 mt-lg-3 me-lg-5" alt="bev-innovations" width="70" height="70"/>
+                    <img src={logo} class="position-relative top-5 start-5 mt-lg-3 me-lg-5 not-display" alt="bev-innovations" width="70" height="70"/>
                 </div>
                 <div className="col-12 col-md-3">
                     <ul className="list-group-flush border-0 mt-lg-2">
