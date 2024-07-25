@@ -1,25 +1,29 @@
 {
   "files": {
     "main.css": "/bev-innovations/static/css/main.11bd242e.css",
-    "main.js": "/bev-innovations/static/js/main.710124b4.js",
+    "main.js": "/bev-innovations/static/js/main.aa944287.js",
     "static/js/453.459167f9.chunk.js": "/bev-innovations/static/js/453.459167f9.chunk.js",
     "static/media/Contact-us.png": "/bev-innovations/static/media/Contact-us.32c71ad76cc64a48ff8d.png",
+    "static/media/bottle-img-2.jpg": "/bev-innovations/static/media/bottle-img-2.1b276ad34af37b8f8088.jpg",
     "static/media/water-bottle.png": "/bev-innovations/static/media/water-bottle.4e808b9251867943a2f1.png",
-    "static/media/banner-BEV.jpg": "/bev-innovations/static/media/banner-BEV.6402544f59c199568af7.jpg",
+    "static/media/bottle-img-1.jpg": "/bev-innovations/static/media/bottle-img-1.319c864b0b1cc28f1f09.jpg",
+    "static/media/Banner-BEV.jpg": "/bev-innovations/static/media/Banner-BEV.70149f6668dceaa950c5.jpg",
+    "static/media/formulation-1.jpeg": "/bev-innovations/static/media/formulation-1.93f54f01195a32731a32.jpeg",
+    "static/media/cans-imgs-2.jpg": "/bev-innovations/static/media/cans-imgs-2.e7cc67979797b9d8beee.jpg",
     "static/media/wine-bottles.png": "/bev-innovations/static/media/wine-bottles.4014b1699e545aeeeb9d.png",
-    "static/media/cans-img.png": "/bev-innovations/static/media/cans-img.4714e88bc9b63be12cbe.png",
-    "static/media/machine.png": "/bev-innovations/static/media/machine.5dceeee740912416349b.png",
-    "static/media/formulation.png": "/bev-innovations/static/media/formulation.4a3fac03b76e4e05000b.png",
+    "static/media/cans-imgs-1.jpg": "/bev-innovations/static/media/cans-imgs-1.7ad4465488d147c9b6c0.jpg",
+    "static/media/bottling-machine.png": "/bev-innovations/static/media/bottling-machine.80cc2dc1866cd3b7859b.png",
     "static/media/aluminium-bottles.png": "/bev-innovations/static/media/aluminium-bottles.c319d4c57bd8354d0689.png",
-    "static/media/wine&spirit.png": "/bev-innovations/static/media/wine&spirit.821f19e493d07a9fadd3.png",
-    "static/media/wine-bottle.png": "/bev-innovations/static/media/wine-bottle.cf2f9b8851c7b88e536a.png",
+    "static/media/formulation-2.jpeg": "/bev-innovations/static/media/formulation-2.429eaf1070a0f0c61f36.jpeg",
+    "static/media/wine-bottle-1.jpg": "/bev-innovations/static/media/wine-bottle-1.236922972b60a696e205.jpg",
+    "static/media/wine-bottle-2.jpg": "/bev-innovations/static/media/wine-bottle-2.2325351e6626a90d6808.jpg",
     "index.html": "/bev-innovations/index.html",
     "main.11bd242e.css.map": "/bev-innovations/static/css/main.11bd242e.css.map",
-    "main.710124b4.js.map": "/bev-innovations/static/js/main.710124b4.js.map",
+    "main.aa944287.js.map": "/bev-innovations/static/js/main.aa944287.js.map",
     "453.459167f9.chunk.js.map": "/bev-innovations/static/js/453.459167f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11bd242e.css",
-    "static/js/main.710124b4.js"
+    "static/js/main.aa944287.js"
   ]
 }
