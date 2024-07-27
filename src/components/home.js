@@ -19,7 +19,7 @@ const { t } = useTranslation();
                  <Link to="/contact-us" className="btn bg-blue btn-lg rounded-0">{t('contact-us')}</Link>
             </div>
             <div className="col-12 col-md-6 not-display">
-                <img src={loadImage('Banner-BEV.jpg')} alt="banner"/>
+                <img src={loadImage('Banner-BEV.png')} class="img-fluid"  alt="banner"/>
             </div>
             </div>
             <div className="services mt-sm-3">

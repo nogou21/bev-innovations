@@ -48,6 +48,9 @@ hr{
     text-decoration: none;
     color: var(--logo-blue);
 }
+.list-decoration{
+    list-style: none;
+}
 
 @media (max-width: 575.98px) { 
 

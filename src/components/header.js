@@ -50,7 +50,7 @@ export default function Header(){
                </li>
              </ul>
              <a className="change-lang-btn fs-5 fw-semibold px-5" href="#" onClick={() => {changeLang(pageDisplayedLang === 'en'?'fr':'en')}}>{pageDisplayedLang === "en" ? "Fr" : "En"}</a>
-             <button type="button" className="btn bg-blue rounded-0 me-lg-2" >{t('contact-us')}</button>
+             <Link to="/contact-us" className="btn bg-blue rounded-0 me-lg-2" >{t('contact-us')}</Link>
            </div>
          </div>
 </nav>
