@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bev-innovations/static/css/main.11bd242e.css",
-    "main.js": "/bev-innovations/static/js/main.2389335b.js",
+    "main.css": "/bev-innovations/static/css/main.346fd789.css",
+    "main.js": "/bev-innovations/static/js/main.89a98b74.js",
     "static/js/453.459167f9.chunk.js": "/bev-innovations/static/js/453.459167f9.chunk.js",
     "static/media/Contact-us.png": "/bev-innovations/static/media/Contact-us.32c71ad76cc64a48ff8d.png",
     "static/media/bottle-img-2.jpg": "/bev-innovations/static/media/bottle-img-2.1b276ad34af37b8f8088.jpg",
     "static/media/water-bottle.png": "/bev-innovations/static/media/water-bottle.4e808b9251867943a2f1.png",
+    "static/media/Banner-BEV.png": "/bev-innovations/static/media/Banner-BEV.3b4da78981c2ae63a7d9.png",
     "static/media/bottle-img-1.jpg": "/bev-innovations/static/media/bottle-img-1.319c864b0b1cc28f1f09.jpg",
-    "static/media/Banner-BEV.jpg": "/bev-innovations/static/media/Banner-BEV.70149f6668dceaa950c5.jpg",
     "static/media/formulation-1.jpeg": "/bev-innovations/static/media/formulation-1.93f54f01195a32731a32.jpeg",
     "static/media/cans-imgs-2.jpg": "/bev-innovations/static/media/cans-imgs-2.e7cc67979797b9d8beee.jpg",
     "static/media/wine-bottles.png": "/bev-innovations/static/media/wine-bottles.4014b1699e545aeeeb9d.png",
@@ -18,12 +18,12 @@
     "static/media/wine-bottle-1.jpg": "/bev-innovations/static/media/wine-bottle-1.236922972b60a696e205.jpg",
     "static/media/wine-bottle-2.jpg": "/bev-innovations/static/media/wine-bottle-2.2325351e6626a90d6808.jpg",
     "index.html": "/bev-innovations/index.html",
-    "main.11bd242e.css.map": "/bev-innovations/static/css/main.11bd242e.css.map",
-    "main.2389335b.js.map": "/bev-innovations/static/js/main.2389335b.js.map",
+    "main.346fd789.css.map": "/bev-innovations/static/css/main.346fd789.css.map",
+    "main.89a98b74.js.map": "/bev-innovations/static/js/main.89a98b74.js.map",
     "453.459167f9.chunk.js.map": "/bev-innovations/static/js/453.459167f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11bd242e.css",
-    "static/js/main.2389335b.js"
+    "static/css/main.346fd789.css",
+    "static/js/main.89a98b74.js"
   ]
 }
